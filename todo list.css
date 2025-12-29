@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100vh;
+    background-color:#fff;
+  
+}
+
+.container{
+    width: 500px ;
+    margin: 20px auto;
+    height: 95vh;
+    max-height: 600px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 3px  rgb(148, 148, 148);
+    border-radius: 10px;
+ 
+}
+
+.input-ui {
+    
+    height: 30vh;
+    padding: 25px;
+    background-color: rgb(69, 192, 192);
+    background-image: linear-gradient(360deg,  rgb(69, 192, 192) , rgb(199, 115, 214));
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    color: rgb(227, 226, 226);
+     margin-bottom: 40px;
+
+}
+h2 {
+    color: white;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+}
+
+.form {
+    margin: 10px;
+}
+.input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+   
+}
+
+.submit-btn {
+    border-radius: 8px;
+    border: none;
+   width: 70px;
+    padding: 10px;
+    background-color: rgb(69, 192, 192);
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+
+.input ,.submit-btn:focus {
+    outline: none;
+}
+
+.autput-ui {
+    height: 40vh;
+    max-height: 400px;
+    background-color: rgb(253, 253, 253);
+    /* overflow: scroll; */
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+img:hover {
+    cursor: pointer;
+}
+
+.task {
+   
+    padding: 7px 18px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin: 20px 10px;
+
+}
+
+.autput-ui li {
+    border-bottom: 1px solid gray;
+}
+
+.accons a{
+
+    margin-left: 10px;
+}
+.msg{
+    background-color: rgb(243, 243, 243);
+    width: 430px;
+    height: 100px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 80px;
+    border-radius: 5px;
+}
+
+.clear-btn {
+    background-color: rgb(168, 95, 120);
+    border: none;
+    padding: 8px;
+    color:  white ;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 8px;
+}
